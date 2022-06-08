@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header id="header">
-        <img id="header-img" src="img/logo.svg" alt="Logo EVOLVE">
-        <nav id="nav-bar">
+        <div class="header__logo"></div>
+        <a href="#">
+            <img id="header-img" src="img/logo.svg" alt="Logo EVOLVE">
+        </a>
+        <nav class="header__menu" id="nav-bar">
             <a class="nav-link" href="#about">About Us</a>
             <a class="nav-link" href="#computers">Computers</a>
             <a class="nav-link" href="#contacts">Contacts</a>
@@ -23,14 +27,23 @@
 
         </section>
         <section id="computers">
-
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dliQr-tUYqU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
         </section>
         <section id="contacts">
 
         </section>
     </body>
     <footer>
-
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" placeholder="Email">
+            <input id="submit" type="submit" form="form">
+        </form>
     </footer>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
