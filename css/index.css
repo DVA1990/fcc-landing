@@ -82,8 +82,10 @@ img {
     line-height: 1.5;
 }
 
-.main__about {
-
+@media (max-width: 1400px){ 
+    .header__nav {
+        background-color: #333;
+    }  
 }
 
 .main__computers img {
