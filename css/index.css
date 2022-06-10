@@ -84,5 +84,67 @@ img {
 }
 
 .main__about {
-    background-color: #555;
+
+}
+
+.main__computers img {
+    max-width: 70%;
+    margin: auto;
+}
+
+.main__about h2 {
+    font-weight: 500;
+    color: var(--main-color);
+    margin: 20px 0;
+}
+
+.main__about p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.main__design h2 {
+    font-weight: 500;
+    color: var(--main-color);
+    margin: 20px 0;
+}
+
+.main__design p {
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.main__design-images {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    margin: auto;
+
+}
+
+.main__nickname h2 {
+    font-weight: 500;
+    color: var(--main-color);
+    margin: 20px 0;
+}
+
+.main__nickname p {
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.main__nickname-video {
+    margin: auto;
+}
+
+footer {
+    background-color: #333;
+}
+
+footer h2 {
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0;
 }
